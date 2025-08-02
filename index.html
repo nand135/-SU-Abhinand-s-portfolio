@@ -22,10 +22,22 @@
       font-size: 2.5rem;
       color: #2a2a2a;
     }
-    header p {
-      margin: 0;
+    #typewriter {
       font-size: 1.2rem;
       color: #555;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #0b7b82;
+      width: 0;
+      animation: typing 4s steps(40, end) forwards, blink 0.75s step-end infinite;
+      margin-top: 10px;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    @keyframes blink {
+      50% { border-color: transparent }
     }
     .profile-pic {
       width: 140px;
@@ -94,7 +106,7 @@
 <header>
   <img src="profile.jpg" alt="SU Abhinand" class="profile-pic">
   <h1>SU Abhinand</h1>
-  <p>Student | MUN Delegate | Science-Tech Explorer | Football Enthusiast</p>
+  <div id="typewriter">Student | MUN Delegate | Science-Tech Explorer | Football Enthusiast</div>
 </header>
 
 <section id="about">
@@ -136,7 +148,7 @@
   <div class="contact-links">
     <p>Email: <a href="mailto:abhinandsu07@gmail.com">abhinandsu07@gmail.com</a></p>
     <p>GitHub: <a href="https://github.com/nand135" target="_blank">github.com/nand135</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank">linkedin.com/in/your-linkedin-id</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/SUAbhinand" target="_blank">linkedin.com/in/SUAbhinand</a></p>
   </div>
 </section>
 
