@@ -6,8 +6,9 @@ Welcome to my official personal website. I am SU Abhinand, a student at The Indi
 
 ## 🌐 Website Link
 
-[Visit My Website](https://yourusername.github.io/your-repository-name/)  
-> 🔁 *Replace `yourusername` and `your-repository-name` with your actual GitHub username and repository name once your site is live.*
+[Visit My Website](https://-SU-Abhinand-s-portfolio
+.github.io/intex.html/)  
+
 
 ---
 
